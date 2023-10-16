@@ -1,0 +1,19 @@
+.firstBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  width: 43rem;
+  height: 23rem;
+}
+
+.secondBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  width: 43rem;
+  height: 23rem;
+  position: absolute;
+  top: 17.6rem;
+}
