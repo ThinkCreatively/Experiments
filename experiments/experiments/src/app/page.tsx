@@ -1,12 +1,13 @@
 import styles from "./page.module.css";
 import RainbowBox from "../components/rainbowBox/rainbowBox";
+import Circle from "../components/circle/circle";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.container}>
+      <div className={styles.outterContainer}>
         <RainbowBox />
-        <div className={styles.circle} />
+        <Circle />
       </div>
     </main>
   );

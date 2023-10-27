@@ -1,0 +1,9 @@
+.firstBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: conic-gradient(green, orange, purple, green);
+  width: 100%;
+  height: 100%;
+  animation: spin 2s linear infinite;
+}

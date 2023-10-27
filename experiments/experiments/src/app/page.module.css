@@ -5,23 +5,13 @@
   min-height: 100vh;
 }
 
-.container {
+/* holds everything within it */
+.outterContainer {
+  /* background: white; */
+  border: 5px solid rgb(48, 43, 43);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: conic-gradient(green, orange, purple, green);
   width: 45rem;
   height: 25rem;
-}
-
-
-
-.circle {
-  width: 35rem;
-  height: 35rem;
-  position: absolute;
-  border: 5px solid red;
-  border-radius: 999%;
-  z-index: -99;
-  top: 5rem;
 }
