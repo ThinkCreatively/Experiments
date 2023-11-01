@@ -1,17 +1,15 @@
 .main {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  justify-content: left;
+  align-items: top;
+  height: 100%;
+  width: 100%;
 }
 
-/* holds everything within it */
-.outterContainer {
-  /* background: white; */
-  border: 5px solid rgb(48, 43, 43);
+.titleContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 45rem;
-  height: 25rem;
+  flex-direction: column;
+  width: 70%;
+  border: 2px solid red;
 }
+
