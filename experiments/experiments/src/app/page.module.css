@@ -9,7 +9,10 @@
 .titleContainer {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 50%;
   border: 2px solid red;
 }
 
+.titleText {
+  font-size: 5rem;
+}
