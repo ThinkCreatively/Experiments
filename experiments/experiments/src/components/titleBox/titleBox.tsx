@@ -9,8 +9,8 @@ const TitleBox = () => {
   return (
     <div className={styles.contentContainer}>
       <div className={styles.innerContainer}>
-        <div className={cinzel.className}>Content</div>
-        <Button className={styles.button}>Go</Button>
+        <div>Content</div>
+        <div>Go</div>
       </div>
     </div>
   );
